@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+    background-color: cornsilk;
+}
+#sketch_name{
+    color: fuchsia;
+}
+#show_sketch{
+float:right;
+}
+canvas{
+    border:5px solid goldenrod;
+    border-radius: 20px;
+    margin-top: 150px;
+    box-shadow: 5px 5px 5px grey;
+    animation-name: exsample;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes exsample{
+    from{box-shadow: 1px 1px 38px gray ;}
+    to{
+        box-shadow: 1px 1px 38px whitesmoke;
+    }
+}
+p,span
+{padding-top:10px;
+font-family: fantasy;
+font-size: 25px;}
+#score{
+    font-size: 35px;
+    margin-left: 20px;
+}
+#time{
+    font-size: 25px;
+    float:right;
+    margin-right: 25px;
+}
